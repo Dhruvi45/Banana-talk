@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap');
+:root{
+    --primary-color:#3b82f6;
+    --dark-gray:#6b7280;
+    --off-white:#d1d5db;
+}textarea{
+    height: 80px;
+    width: 350px;
+    border:1px solid black;
+    background-color:rgb(246, 255, 0);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    margin: 5px;
+    padding: 1rem;
+   
+}
+h1{
+    padding: 2rem;
+  
+    background-color: rgb(246, 255, 0);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem; 
+}
+#btn-translate{
+    background-color:var(--off-white);
+   
+    display: block;
+    padding: 0.2rem;
+    margin: 0.5rem;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+
+}
+#output{
+    border:3px solid black;
+    height:80px;
+    margin: 1.5rem;
+    padding:2rem;
+}
+.footer{
+    background-color: rgb(246, 255, 0);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem; 
+    padding: 0.3rem;
+}
